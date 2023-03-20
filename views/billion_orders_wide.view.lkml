@@ -2,6 +2,8 @@ view: billion_orders_wide {
   sql_table_name: `looker_test.billion_orders_wide`
     ;;
 
+    #
+
   dimension: customer_id {
     type: string
     sql: ${TABLE}.customer_id ;;
